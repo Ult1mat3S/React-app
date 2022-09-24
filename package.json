@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ult1mat3s.github.io/React-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -12,14 +13,16 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2.1.0",
+    "gh-pages": "^4.0.0",
     "vite": "^3.1.3",
     "vite-plugin-svgr": "^2.2.1",
     "vite-tsconfig-paths": "^3.5.0"
   },
   "scripts": {
     "start": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview"
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "./deploy.sh"
   },
   "eslintConfig": {
     "extends": [
