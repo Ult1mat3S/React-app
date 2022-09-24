@@ -11,3 +11,7 @@ Built from Scrimba React Course https://scrimba.com/learn/learnreact/
 - Worked with Frameworks such as Vite (https://vitejs.dev/)
 
 - Gained a bit insight into the build process
+
+# App
+
+View it live here https://ult1mat3s.github.io/React-app/
