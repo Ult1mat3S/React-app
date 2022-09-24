@@ -3,11 +3,11 @@ import logo from "../assets/images/logo.svg";
 function Navbar() {
   return (
     <>
-      <div className="nav-container">
+      <nav className="nav-container">
         <img src={logo} className="nav-logo"></img>
-        <h4>ReactFacts</h4>
-        <h4>React Course - Project 1</h4>
-      </div>
+        <h3 className="nav-logo-text">ReactFacts</h3>
+        <h3 className="nav-title">React Course - Project 1</h3>
+      </nav>
     </>
   );
 }

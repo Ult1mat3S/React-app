@@ -4,41 +4,35 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.nav-items {
-  list-style: none;
-
-  align-items: center;
-
-  gap: 5px;
+  font-family: Inter, sans-serif;
 }
 
 .nav-container {
   display: flex;
-  flex: 1;
+  align-items: center;
+  background-color: #21222a;
+  height: 90px;
+  padding: 30px 25px;
 }
 
-#root > div > h4:nth-child(3) {
-  display: flex;
-  justify-content: space-between;
+.nav-logo_text,
+.nav-title {
+  margin: 0;
 }
 
-#root > div > h4:nth-child(2) {
-  display: flex;
-  justify-content: space-between;
+.nav-logo-text {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-title {
+  color: #deebf8;
+  font-weight: 600;
 }
 
 .nav-logo {
-  width: 60px;
+  height: 30px;
+  margin-right: 7px;
 }
